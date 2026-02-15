@@ -1,5 +1,5 @@
 const canvas = document.getElementById('game-board');
-const ctx = canvas.getContext('2d');
+const ctx = canvas.getContext('3d');
 const scoreElement = document.getElementById('score');
 const finalScoreElement = document.getElementById('final-score');
 const startScreen = document.getElementById('start-screen');
