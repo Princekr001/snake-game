@@ -1,5 +1,5 @@
 const canvas = document.getElementById('game-board');
-const ctx = canvas.getContext('3d');
+const ctx = canvas.getContext('2d');
 const scoreElement = document.getElementById('score');
 const finalScoreElement = document.getElementById('final-score');
 const startScreen = document.getElementById('start-screen');
@@ -14,7 +14,7 @@ let dy = 0;
 let snake = [];
 let food = { x: 10, y: 10 };
 let gameRunning = false;
-let gameSpeed = 10;
+let gameSpeed = 100;
 let lastGameTime = 0;
 
 function resetGame() {
