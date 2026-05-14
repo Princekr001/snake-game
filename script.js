@@ -14,7 +14,7 @@ let dy = 0;
 let snake = [];
 let food = { x: 10, y: 10 };
 let gameRunning = false;
-let gameSpeed = 100;
+let gameSpeed = 10;
 let lastGameTime = 0;
 
 function resetGame() {
